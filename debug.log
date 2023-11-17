@@ -1,0 +1,101 @@
+INFO 2023-11-17 15:01:52,507  2556  Watching for file changes with StatReloader
+INFO 2023-11-17 15:03:10,443  2556  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 15:03:11,679  1072  Watching for file changes with StatReloader
+INFO 2023-11-17 15:04:21,190  1072  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 15:04:25,334  13208  Watching for file changes with StatReloader
+INFO 2023-11-17 15:04:48,461  13208  +1 (862) 449-2936 70
+INFO 2023-11-17 15:06:49,683  13208  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 15:06:52,048  6512  Watching for file changes with StatReloader
+INFO 2023-11-17 15:07:03,557  6512  254745383292 80
+WARNING 2023-11-17 15:07:03,557  6512  254745383292 80
+DEBUG 2023-11-17 15:07:03,557  6512  254745383292 80
+ERROR 2023-11-17 15:07:03,557  6512  254745383292 80
+INFO 2023-11-17 15:11:14,198  6512  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 15:12:47,094  15616  Watching for file changes with StatReloader
+INFO 2023-11-17 15:24:29,625  15616  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\daraja_apis\settings.py changed, reloading.
+INFO 2023-11-17 15:25:14,574  15604  Watching for file changes with StatReloader
+INFO 2023-11-17 15:28:49,028  15604  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\daraja_apis\settings.py changed, reloading.
+INFO 2023-11-17 15:29:26,485  11684  Watching for file changes with StatReloader
+INFO 2023-11-17 15:34:30,604  11684  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\daraja_apis\settings.py changed, reloading.
+INFO 2023-11-17 15:36:19,851  15400  Watching for file changes with StatReloader
+INFO 2023-11-17 15:41:09,376  15400  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 15:41:30,097  11468  Watching for file changes with StatReloader
+INFO 2023-11-17 15:46:08,209  11468  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 15:46:10,082  11648  Watching for file changes with StatReloader
+INFO 2023-11-17 15:46:26,137  11648  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 15:46:27,865  10648  Watching for file changes with StatReloader
+INFO 2023-11-17 15:48:13,130  10648  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 15:48:15,328  8416  Watching for file changes with StatReloader
+INFO 2023-11-17 15:49:38,311  8416  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 15:49:40,024  14256  Watching for file changes with StatReloader
+INFO 2023-11-17 15:50:49,420  14256  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 15:50:51,584  2256  Watching for file changes with StatReloader
+INFO 2023-11-17 15:51:07,731  2256  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 15:51:09,097  12612  Watching for file changes with StatReloader
+INFO 2023-11-17 15:54:22,163  12612  254745383292 1
+DEBUG 2023-11-17 15:54:22,229  12612  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 15:54:27,107  12612  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 15:54:27,688  12612  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 15:54:31,818  12612  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 15:54:31,826  12612  {'MerchantRequestID': '85302-108219081-1', 'CheckoutRequestID': 'ws_CO_17112023155817307745383292', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 15:55:35,326  12612  254745383292 1
+DEBUG 2023-11-17 15:55:35,510  12612  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 15:55:38,089  12612  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 15:55:38,089  12612  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 15:55:41,256  12612  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 15:55:41,256  12612  {'MerchantRequestID': '82196-110301922-1', 'CheckoutRequestID': 'ws_CO_17112023155926577745383292', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 16:08:08,182  12612  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 16:08:39,947  10664  Watching for file changes with StatReloader
+INFO 2023-11-17 16:10:01,250  10664  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 16:10:05,861  9832  Watching for file changes with StatReloader
+INFO 2023-11-17 16:13:08,423  9832  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 16:13:53,305  10024  Watching for file changes with StatReloader
+INFO 2023-11-17 16:15:44,946  10024  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 16:15:50,467  12796  Watching for file changes with StatReloader
+INFO 2023-11-17 16:16:25,224  12796  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 16:16:27,094  13768  Watching for file changes with StatReloader
+INFO 2023-11-17 16:18:04,872  13768  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\daraja_apis\settings.py changed, reloading.
+INFO 2023-11-17 16:18:17,738  8572  Watching for file changes with StatReloader
+INFO 2023-11-17 16:18:27,623  8572  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\daraja_apis\settings.py changed, reloading.
+INFO 2023-11-17 16:18:30,978  3100  Watching for file changes with StatReloader
+INFO 2023-11-17 16:33:40,161  3100  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 16:34:32,767  6028  Watching for file changes with StatReloader
+INFO 2023-11-17 16:34:34,287  2268  Watching for file changes with StatReloader
+WARNING 2023-11-17 16:48:12,845  6028  Not Found: /favicon.ico
+INFO 2023-11-17 16:49:25,049  6028  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\daraja_apis\settings.py changed, reloading.
+INFO 2023-11-17 16:49:24,926  2268  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\daraja_apis\settings.py changed, reloading.
+INFO 2023-11-17 16:49:48,277  10780  Watching for file changes with StatReloader
+INFO 2023-11-17 16:49:48,750  15560  Watching for file changes with StatReloader
+INFO 2023-11-17 16:52:01,274  10780  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 16:52:01,568  15560  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 16:52:03,128  2032  Watching for file changes with StatReloader
+INFO 2023-11-17 16:52:04,023  4704  Watching for file changes with StatReloader
+INFO 2023-11-17 16:52:21,110  2032  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 16:52:21,564  4704  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 16:52:22,400  8468  Watching for file changes with StatReloader
+INFO 2023-11-17 16:52:22,862  15576  Watching for file changes with StatReloader
+WARNING 2023-11-17 16:52:37,368  8468  Forbidden (Origin checking failed - https://e93e-41-90-65-57.ngrok-free.app does not match any trusted origins.): /
+INFO 2023-11-17 16:55:05,329  15576  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 16:55:05,488  8468  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 16:55:06,678  10872  Watching for file changes with StatReloader
+INFO 2023-11-17 16:55:08,076  12456  Watching for file changes with StatReloader
+INFO 2023-11-17 16:58:44,539  10872  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 16:58:44,991  12456  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 16:58:46,283  12192  Watching for file changes with StatReloader
+INFO 2023-11-17 16:58:46,995  13856  Watching for file changes with StatReloader
+WARNING 2023-11-17 16:58:56,145  12192  Forbidden (Origin checking failed - https://e93e-41-90-65-57.ngrok-free.app does not match any trusted origins.): /
+INFO 2023-11-17 17:00:14,374  13856  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\daraja_apis\settings.py changed, reloading.
+INFO 2023-11-17 17:00:14,441  12192  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\daraja_apis\settings.py changed, reloading.
+INFO 2023-11-17 17:00:16,181  10804  Watching for file changes with StatReloader
+INFO 2023-11-17 17:00:17,130  14752  Watching for file changes with StatReloader
+INFO 2023-11-17 17:00:40,543  10804  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 17:00:40,644  14752  C:\Users\Lenox\OneDrive\Desktop\mpesa-integration\mianapp\views.py changed, reloading.
+INFO 2023-11-17 17:00:43,415  5876  Watching for file changes with StatReloader
+INFO 2023-11-17 17:00:44,101  14064  Watching for file changes with StatReloader
+INFO 2023-11-17 17:00:47,862  5876  254745383292 1
+DEBUG 2023-11-17 17:00:47,922  5876  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 17:00:50,676  5876  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 17:00:50,930  5876  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 17:00:54,059  5876  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 17:00:54,060  5876  {'MerchantRequestID': '11036-11623539-1', 'CheckoutRequestID': 'ws_CO_17112023170438718745383292', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+WARNING 2023-11-17 17:19:15,830  5876  Not Found: /favicon.ico
